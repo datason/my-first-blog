@@ -1,5 +1,5 @@
 .page-header {
-    background-color: #ff9400;
+    background-color: #ff0062;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -11,6 +11,7 @@
 }
 .content {
     margin-left: 40px;
+    margin-right: 40px;
 }
 .date {
     color: #828282;

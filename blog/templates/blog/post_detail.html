@@ -1,7 +1,7 @@
 {% extends 'blog/base.html' %}
 
 {% block content %}
-    <div class="post">
+    <div class="post col-md-12">
 
         {% if post.published_date %}
             <div class="date">
@@ -20,7 +20,7 @@
 	{% endif %}	
 	
 	<h1>{{ post.title }}</h1>
-	<img src="{{ post.model_pic.url }}" alt="{{ post.model_pic.url }}"/>
+	<img src="{{ post.model_pic.url }}" style="max-width: 100%" alt="{{ post.model_pic.url }}"/>
         <p>{{ post.text|linebreaksbr }}</p>
     </div>
 <hr>
